@@ -1,0 +1,31 @@
+@media (min-width: 600px) {
+    /* nav */
+    .hamburger-box {
+        display: none;
+    }
+
+    nav {
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    /* skills section */
+    .skills-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* works section */
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .health-care {
+        grid-column: 1 / 3;
+    }
+}

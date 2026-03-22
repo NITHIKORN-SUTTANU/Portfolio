@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Luckiest+Guy&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Luckiest+Guy&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cormorant Garamond, serif;
+}
+
+:root {
+  /* Navy */
+  --navy:          #0f1f3d;
+  --navy-mid:      #1a2f52;
+  --navy-light:    #2b4070;
+
+  /* Cream */
+  --cream:         #f5f0e8;
+  --cream-dark:    #e8e0d0;
+  --cream-deeper:  #d8cdb8;
+
+  /* Gold */
+  --gold:          #c49a5a;
+  --gold-light:    #dbb878;
+
+  /* Text */
+  --text-dark:     #0f1f3d;
+  --text-muted:    #5a6a80;
+
+  /* Base */
+  --white:         #ffffff;
+
+  /* Tags */
+  --tag-ux-bg:     #eee9f5;
+  --tag-ux-text:   #4a3278;
+  --tag-mobile-bg: #e4f0ea;
+  --tag-mobile-text: #1f5c36;
+  --tag-web-bg:    #e4ecf7;
+  --tag-web-text:  #1a3a6b;
+}
+
+h1 {
+    font-family: Cormorant Garamond, serif;
+    color: var(--white);
+    font-size: clamp(2.000rem, calc(1.714rem + 1.429vw), 3.000rem);
+}
+
+h2 {
+    font-family: Cormorant Garamond, serif;
+    font-size: clamp(2.000rem, calc(1.714rem + 1.429vw), 2.250rem);
+    font-weight: 500;
+    margin-block: 1rem;
+    color: var(--navy);
+    font-weight: normal;
+}
+
+p {
+    font-family: DM Sans, sans-serif;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  color: var(--text-muted);
+  font-family: Dm Sans, sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(0.875rem, calc(0.732rem + 0.714vw), 1.000rem);
+}
+
+li a:hover {
+    color: var(--gold-light);
+    transition: color 0.3s ease;
+}
+
+li a:active {
+    color: var(--white);
+    transition: color 0.1s ease;
+}
+
+p {
+    font-family: DM Sans, sans-serif;
+}
